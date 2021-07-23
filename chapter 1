@@ -1,0 +1,12 @@
+chapter 1
+
+가운데 정렬 
+text-align은 박스안의 텍스트를 박스안에서 가운데 정렬 시키는 것입니다.
+margin-left: auto;, margin-right: auto;로 가운데 정렬을 하면 화면에서 box의 크기와 box이외에 크기를 계산하고 box를 가운데로 이동시키는 것이다.
+
+Display: block;일때 margin-left: auto; , margin-right: auto;를 사용한 가운데 정렬
+* width가 설정이 되어있어야 한다.
+
+Display: inline;일때는 text-align:center;를 사용하여 가운데 정렬
+* 정확히는 inline-block을 해주고 width를 설정해라: inline의 height,width는 텍스트에 의해서 자동으로 설정이 되기 때문이다.
+
