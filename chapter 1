@@ -6,6 +6,7 @@ margin-left: auto;, margin-right: auto;로 가운데 정렬을 하면 화면에�
 
 Display: block;일때 margin-left: auto; , margin-right: auto;를 사용한 가운데 정렬
 * width가 설정이 되어있어야 한다.
+block내의 텍스트에 text-align: center;을 해주면 꼭 width를 안해줘도 된다.
 
 Display: inline;일때는 text-align:center;를 사용하여 가운데 정렬
 * 정확히는 inline-block을 해주고 width를 설정해라: inline의 height,width는 텍스트에 의해서 자동으로 설정이 되기 때문이다.
