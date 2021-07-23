@@ -3,6 +3,7 @@ chapter 2
 border: 테두리 
 테두리 선 종류 : solid(일반적인 선),  dotted(점선), dashed(파선)
 
+<<<<<<< HEAD
 border-style: solid; 테두리 선의 설정  |
 border-color: #4d9fff; 테두리 색 설정	  | 
 border-width: 5px; 테두리 너비 설정	  |
