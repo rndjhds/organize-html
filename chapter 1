@@ -1,16 +1,17 @@
-chapter 2
+position의 특성
 
-border: 테두리 
-테두리 선 종류 : solid(일반적인 선),  dotted(점선), dashed(파선)
+1.포지셔닝이 된 요소
+relative : 부모 태그를 기준으로 이동한다. 
+-margin과 다른점 : margin을 하면 다른 요소들도 같이 이동하지만 relative를 하면 다른 요소들은 이동하지 않고 해당 요소만 이동한다.
 
-border-style: solid; 테두리 선의 설정  |
-border-color: #4d9fff; 테두리 색 설정	  | 
-border-width: 5px; 테두리 너비 설정	  |
----> border: 5px solid #4d9fff 한줄로 설정가능
-위 코드는 모든방향의 선을 동일 하게 설정할때
+fixed : 브라우저를 기준으로 이동한다.
+- fixed된 요소는 스크롤로 이동해도 항상 같은 자리에 위치한다.
+- fixed된 요소는 기존에 있던 자리에서 자동으로 없던것처럼 표시된다
 
-border를 이용한 테두리 정리는 각 방향에 따라 다르게 설정이 가능하다.
+absolute : 가장 가까운 포지셔닝이 된 조상 요소가 기준
 
-테두리 없애는 방법
-1. border: none;
-2. border: 0;
+
+2. 포지셔닝이 안 된 요소
+static : 기본값으로 현재 위치에 나타낸다.
+
+
