@@ -1,16 +1,19 @@
 .container {
-  width: 300px;
-  height: 400px;
-  background-color: gray;
   text-align: center;
-  line-height: 400px;
 }
 
+.first {
+  background-color: yellow;
+}
 
-.info {
-  width: 100%;
+.second {
   background-color: lime;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+}
+
+.third {
+  background-color: orange;
+}
+
+.fourth {
+  background-color: blue;
 }
